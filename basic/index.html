@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="/pwa-presentation/basic/manifest.webmanifest" />
+  <meta name="theme-color" content="#0e8dd2" />
+  <link rel="shortcut icon" type="image/png" href="/pwa-presentation/basic/icon.png" />
+  <link rel="apple-touch-icon" href="/pwa-presentation/basic/icon.png">
+  <link rel="stylesheet" href="/pwa-presentation/basic/style.css">
+  <title>DICE</title>
+</head>
+<body>
+<h1>
+  Basic Offline Dice App
+</h1>
+<section class="input">
+  <input type="text" id="dice_config" value="2d6 ** 3d2"/>
+  <button type="button" id="throw_dice">throw</button>
+  <button type="button" id="clear_log">clear</button>
+</section>
+<dl id="dice_log">
+</dl>
+<script src="/pwa-presentation/basic/script.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/pwa-presentation/basic/sw.js');
+}
+</script>
+</body>
+</html>

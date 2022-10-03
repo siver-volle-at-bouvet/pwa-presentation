@@ -1,0 +1,17 @@
+{
+    "name": "Basic PWA Dice",
+    "short_name": "Basic",
+    "description": "A very basic dice app as a PWA-example",
+    "icons": [
+      {
+        "src": "/pwa-presentation/basic/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/pwa-presentation/basic/index.html",
+    "display": "standalone",
+    "theme_color": "#0e8dd2",
+    "background_color": "#0e8dd2"
+  }
+  

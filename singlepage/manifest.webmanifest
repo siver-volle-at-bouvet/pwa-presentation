@@ -1,0 +1,10 @@
+{
+    "name": "Single Page PWA Dice",
+    "short_name": "Single Page",
+    "description": "A very basic dice app as a PWA-example, using data-uris in order to make it single page. Some APIs like service-workers are not available through data-uris.",
+    "start_url": "/pwa-presentation/singlepage/index.html",
+    "display": "standalone",
+    "theme_color": "#d2530e",
+    "background_color": "#d2530e"
+  }
+  

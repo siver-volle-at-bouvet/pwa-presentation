@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+}
+
+h1 {
+  background-color: #0e8dd2;
+  color: white;
+  padding: 1ch;
+  margin: 0;
+}
+
+section.input {
+  display: flex;
+}
+
+section.input input {
+  width: 100%;
+}
+
+dl {
+  padding: 1ch;
+}
+
+button { touch-action: manipulation; }
